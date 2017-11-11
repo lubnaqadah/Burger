@@ -1,0 +1,64 @@
+
+li {
+	padding: 5px;
+	margin: 5px;
+	list-style-type: none;
+}
+
+.label {
+	font-weight: bold;
+}
+
+.create-form {
+	clear: both;
+	width: 100%;
+	padding: 5px;
+	margin: 5px;
+}
+
+.form-group {
+	margin-bottom: 5px;
+}
+input{
+	width: 300px;
+	height: 30px
+}
+
+body {
+	max-width: 960px;
+	margin: auto;
+	color: #474747;
+	text-align: center;
+	text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+	font-size: 1.4em;
+
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: #edeade;
+}
+
+h1{
+	margin-bottom: 0;
+	color: #b5252e
+}
+
+
+.eaten, .available{
+	width: 50%;
+	float: left;
+}
+.eaten li{
+	color: #7F0E09
+}
+.available li{
+	color: #31672F
+}
+
+.burgerImg{
+	max-width: 250px;
+	max-height: 250px;
+	clear: both;
+	margin: auto;
+	display: block
+
+}
